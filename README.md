@@ -16,6 +16,12 @@ volume.
 The first version lives in
 [`skills/frontend-code-review`](skills/frontend-code-review).
 
+### `frontend-debugging`
+
+Diagnoses bounded frontend failures through reproduction, evidence, and
+hypothesis testing before recommending a correction. It lives in
+[`skills/frontend-debugging`](skills/frontend-debugging).
+
 ### `linkedin-writing-partner`
 
 Helps software engineers turn real technical experience into credible LinkedIn
@@ -37,11 +43,11 @@ skills/
   frontend-code-review/
     SKILL.md
     references/
+  frontend-debugging/
+    SKILL.md
   linkedin-writing-partner/
     SKILL.md
     references/
-evals/
-  frontend-code-review/
 ```
 
 ## Installation
@@ -50,10 +56,12 @@ List the available skills:
 
 ```sh
 npx skills add https://github.com/NicolasMilliard/frontend-engineer-skills --list
-````
+```
 
 Install a specific skill:
+
 ```sh
 npx skills add https://github.com/NicolasMilliard/frontend-engineer-skills --skill frontend-code-review
+npx skills add https://github.com/NicolasMilliard/frontend-engineer-skills --skill frontend-debugging
 npx skills add https://github.com/NicolasMilliard/frontend-engineer-skills --skill linkedin-writing-partner
 ```
