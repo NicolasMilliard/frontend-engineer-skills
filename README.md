@@ -6,6 +6,12 @@ large collection of generic prompts.
 
 ## Skills
 
+### `frontend-codebase-discovery`
+
+Maps an unfamiliar frontend codebase from repository evidence, showing how it
+runs, where responsibilities live, and which files to read first. It lives in
+[`skills/frontend-codebase-discovery`](skills/frontend-codebase-discovery).
+
 ### `frontend-code-review`
 
 Reviews bounded React, Next.js, and frontend TypeScript changes with an
@@ -40,6 +46,9 @@ posts. It lives in
 
 ```text
 skills/
+  frontend-codebase-discovery/
+    SKILL.md
+    references/
   frontend-code-review/
     SKILL.md
     references/
@@ -61,6 +70,7 @@ npx skills add https://github.com/NicolasMilliard/frontend-engineer-skills --lis
 Install a specific skill:
 
 ```sh
+npx skills add https://github.com/NicolasMilliard/frontend-engineer-skills --skill frontend-codebase-discovery
 npx skills add https://github.com/NicolasMilliard/frontend-engineer-skills --skill frontend-code-review
 npx skills add https://github.com/NicolasMilliard/frontend-engineer-skills --skill frontend-debugging
 npx skills add https://github.com/NicolasMilliard/frontend-engineer-skills --skill linkedin-writing-partner
