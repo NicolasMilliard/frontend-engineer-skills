@@ -46,7 +46,7 @@ relationships. A diagram is a selected architectural view, not an inventory.
 - Use lowercase `snake_case` node identifiers and concise quoted labels.
 - Group by application, package, feature, or runtime boundary with at most one
   level of `subgraph` nesting.
-- Draw observed relationships with solid arrows (`-->`) and inferred
+- Draw directly evidenced relationships with solid arrows (`-->`) and inferred
   relationships with dashed arrows (`-.->`). Explain the inference in prose.
 - Keep one direction throughout a diagram.
 - Use 6–10 nodes at `low` and at most 12 nodes at `medium` or `high`. Limit each

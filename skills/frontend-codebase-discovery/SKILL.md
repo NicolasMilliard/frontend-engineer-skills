@@ -107,11 +107,10 @@ imply equal analysis of every package.
 
 Distinguish material claims consistently:
 
-- State facts directly verified in the repository with concrete
-  repository-relative paths or symbols. At `medium` and `high`, prefix these
-  claims with **[Observed]**. At `low`, omit that label and state the facts
-  plainly.
-- **[Inferred]** for a reasoned interpretation. Cite its observed basis and use
+- State facts directly verified in the repository plainly, with concrete
+  repository-relative paths or symbols. Do not prefix them with a status
+  label.
+- **[Inferred]** for a reasoned interpretation. Cite its verified basis and use
   appropriately tentative language.
 - **[Unknown]** for missing, inaccessible, stale, or conflicting evidence. State
   what would resolve it.
@@ -184,8 +183,9 @@ only when one is included.
 
 ## Working model
 
-<at most four evidence-labeled bullets covering product, runtime/repository
-shape, main feature boundaries, stack, and state/data ownership>
+<at most four path-supported bullets covering product, runtime/repository
+shape, main feature boundaries, stack, and state/data ownership; prefix only
+inferred claims>
 
 ## Architecture and data flow
 
@@ -226,7 +226,7 @@ Use the following structure:
 
 ## Working model
 
-<compact orientation using evidence labels and paths>
+<compact path-supported orientation; prefix only inferred claims>
 
 ## Product and feature map
 
