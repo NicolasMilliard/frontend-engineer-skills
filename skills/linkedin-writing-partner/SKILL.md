@@ -49,7 +49,8 @@ See `references/engineering-storytelling.md` when identifying the
 thesis and narrative.
 
 If the post promotes a longer article or case study, read
-`references/article-teasers.md`.
+`references/article-teasers.md`. Carry the post-to-article connection through
+every stage instead of adding it after the draft is written.
 
 Before writing, read `references/writing-style.md`.
 
@@ -64,3 +65,6 @@ After the angle and narrative have been agreed:
 3. Flag anything that still feels generic.
 4. Prefer cuts over additions.
 5. Do not produce alternatives unless requested.
+6. For an article teaser, add an **Article connection** section containing one
+   sentence that explains what the post opens and how the article directly
+   answers, supports, or develops it.
